@@ -58,7 +58,6 @@ mod tests {
         assert_eq!(first.re, 3);
         assert_eq!(first.im, 5);
         assert_eq!(second.re, second.im);
-        println!("{:?}", first);
     }
 
     #[test]
